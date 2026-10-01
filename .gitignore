@@ -1,0 +1,34 @@
+# Credentials and machine-local configuration
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*
+secrets*
+.npmrc
+.netrc
+.codex/
+.agents/
+
+# Reference images, captures, and generated test artifacts
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.mov
+*.mp4
+test-results/
+playwright-report/
+coverage/
+*.log
+
+# Local dependencies, browser profiles, and OS/editor files
+node_modules/
+dist/
+tmp/
+.DS_Store
+.vscode/
+.idea/
+*chrome*/
